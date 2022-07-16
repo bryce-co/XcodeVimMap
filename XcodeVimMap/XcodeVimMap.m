@@ -23,7 +23,14 @@ static BOOL(*originalKeyDown)(id self, SEL _cmd, NSEvent *event);
 
 + (void)pluginDidLoad:(NSBundle *)plugin {
     NSLog(@"[XcodeVimMap] Plugin Loaded");
+    
+    static dispatch_once_t token = 0;
+    dispatch_once(&token, ^{
+        [self swizzleKeyDown];
+    }); 
+}
 
++ (void)swizzleKeyDown {
     NSString *xcodePath = [[NSBundle mainBundle] bundlePath];
     NSString *sourceEditorPath = [xcodePath stringByAppendingPathComponent:@"Contents/SharedFrameworks/SourceEditor.framework/Versions/A/SourceEditor"];
     dlopen([sourceEditorPath cStringUsingEncoding:NSUTF8StringEncoding], RTLD_NOW);
