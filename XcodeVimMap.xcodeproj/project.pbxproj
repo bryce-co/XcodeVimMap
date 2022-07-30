@@ -249,7 +249,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FGFSR7EX83;
+				DEVELOPMENT_TEAM = U6N93T3598;
 				DSTROOT = "$(HOME)";
 				INFOPLIST_FILE = XcodeVimMap/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
@@ -264,7 +264,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = FGFSR7EX83;
+				DEVELOPMENT_TEAM = U6N93T3598;
 				DSTROOT = "$(HOME)";
 				INFOPLIST_FILE = XcodeVimMap/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";

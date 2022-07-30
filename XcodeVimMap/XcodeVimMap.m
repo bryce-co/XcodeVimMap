@@ -23,7 +23,14 @@ static BOOL(*originalKeyDown)(id self, SEL _cmd, NSEvent *event);
 
 + (void)pluginDidLoad:(NSBundle *)plugin {
     NSLog(@"[XcodeVimMap] Plugin Loaded");
+    
+    static dispatch_once_t token = 0;
+    dispatch_once(&token, ^{
+        [self swizzleKeyDown];
+    }); 
+}
 
++ (void)swizzleKeyDown {
     NSString *xcodePath = [[NSBundle mainBundle] bundlePath];
     NSString *sourceEditorPath = [xcodePath stringByAppendingPathComponent:@"Contents/SharedFrameworks/SourceEditor.framework/Versions/A/SourceEditor"];
     dlopen([sourceEditorPath cStringUsingEncoding:NSUTF8StringEncoding], RTLD_NOW);
@@ -141,6 +148,15 @@ static dispatch_block_t sendQueuedEventAfterTimeout;
     return object_getIvar(object, ivar);
 }
 
++ (uint8_t)getIntIvar:(NSString *)ivarName from:(NSObject *)object {
+    const char *ivarNameCString = [ivarName cStringUsingEncoding:NSUTF8StringEncoding];
+    Ivar ivar = class_getInstanceVariable([object class], ivarNameCString);
+    // In Apple Silicon, the compiler will try to retain the return value from `object_getIvar` then crash.
+    // In this case, we cast the `object_getIvar` to avoid this.
+    uint8_t result = ((uint8_t (*)(id, Ivar))object_getIvar)(object, ivar);
+    return result;
+}
+
 + (NSArray *)arrayFromSwiftArrayStorage:(void *)swiftArrayStorage {
     // Create a mutable array to hold each encountered element
     NSMutableArray *results = [NSMutableArray new];
@@ -176,7 +192,7 @@ static dispatch_block_t sendQueuedEventAfterTimeout;
     id vimContext = [XcodeVimMap getIvar:@"context" from:vimEventConsumer];
 
     // Get the current vim mode
-    uint8_t vimMode = (uint8_t)(long)[XcodeVimMap getIvar:@"mode" from:vimContext];
+    uint8_t vimMode = [XcodeVimMap getIntIvar:@"mode" from:vimContext];
     return vimMode;
 }
 
