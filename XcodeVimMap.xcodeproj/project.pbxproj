@@ -3,22 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		026AF2C126B7852E00E91940 /* XcodeVimMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 026AF2C026B7852E00E91940 /* XcodeVimMap.m */; };
+		020463C62B755EB900BF01DB /* XcodeVimMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 020463C42B755EB900BF01DB /* XcodeVimMap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		026AF2B526B7850C00E91940 /* XcodeVimMap.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeVimMap.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		026AF2B826B7850C00E91940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		026AF2BF26B7852E00E91940 /* XcodeVimMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeVimMap.h; sourceTree = "<group>"; };
-		026AF2C026B7852E00E91940 /* XcodeVimMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeVimMap.m; sourceTree = "<group>"; };
+		020463B52B755DCA00BF01DB /* XcodeVimMap.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeVimMap.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		020463C22B755EB900BF01DB /* XcodeVimMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeVimMap.h; sourceTree = "<group>"; };
+		020463C32B755EB900BF01DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020463C42B755EB900BF01DB /* XcodeVimMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeVimMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		026AF2B226B7850C00E91940 /* Frameworks */ = {
+		020463B22B755DCA00BF01DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -28,28 +28,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		026AF2AC26B7850C00E91940 = {
+		020463AC2B755DCA00BF01DB = {
 			isa = PBXGroup;
 			children = (
-				026AF2B726B7850C00E91940 /* XcodeVimMap */,
-				026AF2B626B7850C00E91940 /* Products */,
+				020463C12B755E9E00BF01DB /* XcodeVimMap */,
+				020463B62B755DCA00BF01DB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		026AF2B626B7850C00E91940 /* Products */ = {
+		020463B62B755DCA00BF01DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				026AF2B526B7850C00E91940 /* XcodeVimMap.xcplugin */,
+				020463B52B755DCA00BF01DB /* XcodeVimMap.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		026AF2B726B7850C00E91940 /* XcodeVimMap */ = {
+		020463C12B755E9E00BF01DB /* XcodeVimMap */ = {
 			isa = PBXGroup;
 			children = (
-				026AF2BF26B7852E00E91940 /* XcodeVimMap.h */,
-				026AF2C026B7852E00E91940 /* XcodeVimMap.m */,
-				026AF2B826B7850C00E91940 /* Info.plist */,
+				020463C32B755EB900BF01DB /* Info.plist */,
+				020463C22B755EB900BF01DB /* XcodeVimMap.h */,
+				020463C42B755EB900BF01DB /* XcodeVimMap.m */,
 			);
 			path = XcodeVimMap;
 			sourceTree = "<group>";
@@ -57,13 +57,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		026AF2B426B7850C00E91940 /* XcodeVimMap */ = {
+		020463B42B755DCA00BF01DB /* XcodeVimMap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 026AF2BB26B7850C00E91940 /* Build configuration list for PBXNativeTarget "XcodeVimMap" */;
+			buildConfigurationList = 020463B92B755DCA00BF01DB /* Build configuration list for PBXNativeTarget "XcodeVimMap" */;
 			buildPhases = (
-				026AF2B126B7850C00E91940 /* Sources */,
-				026AF2B226B7850C00E91940 /* Frameworks */,
-				026AF2B326B7850C00E91940 /* Resources */,
+				020463B12B755DCA00BF01DB /* Sources */,
+				020463B22B755DCA00BF01DB /* Frameworks */,
+				020463B32B755DCA00BF01DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -71,42 +71,43 @@
 			);
 			name = XcodeVimMap;
 			productName = XcodeVimMap;
-			productReference = 026AF2B526B7850C00E91940 /* XcodeVimMap.xcplugin */;
+			productReference = 020463B52B755DCA00BF01DB /* XcodeVimMap.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		026AF2AD26B7850C00E91940 /* Project object */ = {
+		020463AD2B755DCA00BF01DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1230;
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					026AF2B426B7850C00E91940 = {
-						CreatedOnToolsVersion = 12.3;
+					020463B42B755DCA00BF01DB = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 026AF2B026B7850C00E91940 /* Build configuration list for PBXProject "XcodeVimMap" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 020463B02B755DCA00BF01DB /* Build configuration list for PBXProject "XcodeVimMap" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 026AF2AC26B7850C00E91940;
-			productRefGroup = 026AF2B626B7850C00E91940 /* Products */;
+			mainGroup = 020463AC2B755DCA00BF01DB;
+			productRefGroup = 020463B62B755DCA00BF01DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				026AF2B426B7850C00E91940 /* XcodeVimMap */,
+				020463B42B755DCA00BF01DB /* XcodeVimMap */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		026AF2B326B7850C00E91940 /* Resources */ = {
+		020463B32B755DCA00BF01DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,25 +117,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		026AF2B126B7850C00E91940 /* Sources */ = {
+		020463B12B755DCA00BF01DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				026AF2C126B7852E00E91940 /* XcodeVimMap.m in Sources */,
+				020463C62B755EB900BF01DB /* XcodeVimMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		026AF2B926B7850C00E91940 /* Debug */ = {
+		020463B72B755DCA00BF01DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -162,11 +163,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = "$(HOME)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -180,8 +180,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins/";
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -189,14 +189,14 @@
 			};
 			name = Debug;
 		};
-		026AF2BA26B7850C00E91940 /* Release */ = {
+		020463B82B755DCA00BF01DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -224,11 +224,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = "$(HOME)";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -236,40 +235,58 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins/";
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		026AF2BC26B7850C00E91940 /* Debug */ = {
+		020463BA2B755DCA00BF01DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = U6N93T3598;
-				DSTROOT = "$(HOME)";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FGFSR7EX83;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = XcodeVimMap/Info.plist;
-				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				PRODUCT_BUNDLE_IDENTIFIER = co.bryce.XcodeVimMap;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brycepauken.XcodeVimMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
 		};
-		026AF2BD26B7850C00E91940 /* Release */ = {
+		020463BB2B755DCA00BF01DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = U6N93T3598;
-				DSTROOT = "$(HOME)";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = FGFSR7EX83;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = XcodeVimMap/Info.plist;
-				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				PRODUCT_BUNDLE_IDENTIFIER = co.bryce.XcodeVimMap;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brycepauken.XcodeVimMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
@@ -277,25 +294,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		026AF2B026B7850C00E91940 /* Build configuration list for PBXProject "XcodeVimMap" */ = {
+		020463B02B755DCA00BF01DB /* Build configuration list for PBXProject "XcodeVimMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				026AF2B926B7850C00E91940 /* Debug */,
-				026AF2BA26B7850C00E91940 /* Release */,
+				020463B72B755DCA00BF01DB /* Debug */,
+				020463B82B755DCA00BF01DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		026AF2BB26B7850C00E91940 /* Build configuration list for PBXNativeTarget "XcodeVimMap" */ = {
+		020463B92B755DCA00BF01DB /* Build configuration list for PBXNativeTarget "XcodeVimMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				026AF2BC26B7850C00E91940 /* Debug */,
-				026AF2BD26B7850C00E91940 /* Release */,
+				020463BA2B755DCA00BF01DB /* Debug */,
+				020463BB2B755DCA00BF01DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 026AF2AD26B7850C00E91940 /* Project object */;
+	rootObject = 020463AD2B755DCA00BF01DB /* Project object */;
 }
