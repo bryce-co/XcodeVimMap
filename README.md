@@ -5,4 +5,4 @@ Source code for the plugin built in
 
 Adds the "jk" key sequence as an option for exiting insert mode in Xcode 13's Vim Mode.
 
-Tested with Xcode 13.0-b4 .
+Tested with Xcode 13.0 – Xcode 15.3b2 .
