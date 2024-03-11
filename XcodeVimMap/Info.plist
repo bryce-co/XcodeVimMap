@@ -24,10 +24,13 @@
 	<true/>
 	<key>XCPluginHasUI</key>
 	<false/>
-	<key>DTXcodeBuildCompatibleVersions</key>
+	<key>CompatibleProductBuildVersions</key>
 	<array>
-		<string>15E5178</string>
-		<string>15E5188</string>
+		<string>15E5178i</string> <!-- 15.3b1 -->
+		<string>15E5188j</string> <!-- 15.3b2 -->
+		<string>15E5194e</string> <!-- 15.3b3 -->
+		<string>15E5202a</string> <!-- 15.3rc1 -->
+		<string>15E204a</string>  <!-- 15.3rc2 -->
 	</array>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
