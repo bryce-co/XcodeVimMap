@@ -30,7 +30,9 @@
 		<string>15E5188j</string> <!-- 15.3b2 -->
 		<string>15E5194e</string> <!-- 15.3b3 -->
 		<string>15E5202a</string> <!-- 15.3rc1 -->
-		<string>15E204a</string>  <!-- 15.3rc2 -->
+		<string>15E204a</string>  <!-- 15.3 -->
+		<string>15F31d</string>   <!-- 15.4 -->
+		<string>16A5171c</string> <!-- 16.0b1 -->
 	</array>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
